@@ -1,0 +1,135 @@
+body {
+    font-family: 'Arial', sans-serif;
+    /* background: linear-gradient(135deg, #49d1e6, #6eb7b7, #3374c9); */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #403e3e;
+}
+
+.container {
+    background-color: white;
+    padding: 2.5rem;
+    border-radius: 20px;
+    box-shadow: 0 8px 32px rgba(1, 1, 1, 0.4);
+    backdrop-filter: blur(10px);
+    transition: all 0.3s ease;
+}
+
+.container:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.15);
+}
+
+.form-container {
+    width: 320px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #4b4848;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    margin-bottom: 1rem;
+    padding: 0.8rem;
+    border: 1px solid #d1d1d1;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+}
+
+input:focus {
+    outline: none;
+    border-color: #a6c1ee;
+    box-shadow: 0 0 0 2px rgba(166, 193, 238, 0.3);
+}
+
+button {
+    background-color: #8cb0ee;
+    color: white;
+    border: none;
+    padding: 0.8rem;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #89a7e0;
+}
+
+#message {
+    text-align: center;
+    margin-top: 1rem;
+    font-weight: bold;
+    color: #4a4a4a;
+}
+
+#switch-form {
+    text-align: center;
+    margin-top: 1.5rem;
+    font-size: 0.9rem;
+}
+
+#switch-link {
+    color: #1a3b74;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+#switch-link:hover {
+    color: #2d69d8;
+    text-decoration: underline;
+}
+
+#remember-me {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+#remember-me input {
+    margin-right: 0.5rem;
+}
+
+#password-strength {
+    font-size: 0.8rem;
+    margin-top: -0.5rem;
+    margin-bottom: 1rem;
+}
+
+#welcome-message {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+#logout-btn {
+    background-color: #ff6b6b;
+    color: white;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+#logout-btn:hover {
+    background-color: #ff5252;
+}
